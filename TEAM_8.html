@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel = "stylesheet" type="text/css" href = "TEAM_8.css">
+      <div id="sdining">
+        <img src="sdining.jpg" alt="StevensDining" align="left">
+      </div>
+  <div id = "title">
+    <center>The Food Review<center>
+  </div>
+
+
+</head>
+    <div id = "stitle">
+        <center>Stevens Dining Options<center>
+    </div>
+    <nav>
+    <ul>
+      <li><button class="normal" id="button"><a href="TEAM_8.html">Home</a></button></li>
+      <li><button class="normal" id="button"><a href="pierce.html">Pierce</a></button></li>
+      <li><button class="normal" id="button"><a href="americascup.html">America's Cup</a></button></li>
+      <li><button class="normal" id="button"><a href="redandgray.html">Red & Gray Cafe</a></button></li>
+      <li><button class="normal" id="button"><a href="coloneljohns.html">Colonel Johns</a></button></li>
+      <li><button class="normal" id="button"><a href="washington.html">Washington Street</a></button></li>
+    </ul>
+  </nav>
+       <div class = "body">
+          <center>Welcome to Food Review! Here we talk all about Stevens Dining! Above is listed locations – feel free to take a read!<center>
+        </div>
+        <div class = 'image'>
+          <img src="stevens.jpg" alt="Stevens Institute of Technology" align="center">
+        </div>
+
+<script>
+
+$('.button').mouseover(function(event) { // mouseOver event on all buttons with class .button
+  $('.button').css({background:"green"}); // reset all buttons' color to default green
+  $(event.target).css({background:"red"}); // change current button color to red
+});
+</script>
+
+<head>
+    <title></title>
+    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+    <style type="text/css"><!--
+        button.normal { backgroundColor:"#9933ff"; }
+        botton.mouseOver { backgroundColor:"##9999ff"; }
+    </style>
+</head>
+<body>
+
+    
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            buttonElement = $(".button");
+            imageElement.hover( // accepts two functions
+                function() { // mouse goes over:
+                    $(this).toggleClass("normal", false); // remove one class first
+                    $(this).toggleClass("mouseOver", true); // add another one
+                },
+                function() { // mouse goes out
+                    $(this).toggleClass("mouseOver", false);
+                    $(this).toggleClass("normal", true);
+                }
+            );
+        }); </script>
+
+</body>
+
+
+<div id = "aboutus">
+    <center>About Us<center>
+  </div>
+<div class = "body">
+          <center>Here at food review, we take pride in our writing and communication with the Student Community. Our expert team of reviewers are Kathryn Doo, Daniel Kimball, Dave Taveras, Anthony Bruno, and Jonathan Carlesson!<center>
+        </div>
+
+
+
+
+
+
+
+
+
+
